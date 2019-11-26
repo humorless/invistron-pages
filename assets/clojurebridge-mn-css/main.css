@@ -1,0 +1,264 @@
+h1, h2, h3, h4, h5, h6, a, p, span {
+  color: #33343e; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif; }
+
+h2, h3 {
+  font-size: 1.5rem; }
+
+p, span, li {
+  font-family: "Roboto", sans-serif; }
+
+a {
+  color: #5881d8;
+  text-decoration: underline; }
+  a:hover {
+    color: #33343e; }
+
+.no-toc .main-content {
+  width: 100%; }
+
+@media only screen and (min-width: 48rem) {
+  h2 {
+    font-size: 2rem; }
+  h3 {
+    font-size: 1.5rem; } }
+
+.sr-only {
+  color: transparent; }
+
+.about blockquote {
+  background-color: #5881d8;
+  margin: 2rem 0;
+  padding: 0.5rem 2rem; }
+  .about blockquote h2 {
+    color: #ffffff;
+    margin-top: 1rem; }
+  .about blockquote p {
+    color: #ffffff; }
+    .about blockquote p a {
+      color: #ffffff; }
+      .about blockquote p a:hover {
+        color: #33343e; }
+
+.about .committee-members div {
+  display: block;
+  margin: 2.5rem 0;
+  text-align: center; }
+
+.about .committee-members img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  align-self: center;
+  width: 160px; }
+
+.about .committee-members p {
+  text-align: left; }
+
+@media only screen and (min-width: 48rem) {
+  .about .committee-members div {
+    align-items: center;
+    display: flex; }
+    .about .committee-members div img {
+      margin-right: 2rem;
+      width: 240px; }
+    .about .committee-members div:nth-child(4n-1) img {
+      margin: 0 0 0 2rem;
+      order: 2; } }
+
+.docs h2, .docs h3, .docs h4, .docs h5, .docs h6 {
+  margin-top: 1rem; }
+
+.docs img {
+  max-width: 100%; }
+
+.docs code {
+  font-family: 'Lucida Console', monospace; }
+  .docs code span {
+    font-family: 'Lucida Console', monospace; }
+
+.index {
+  text-align: center; }
+  .index h2 {
+    margin: 3rem 0; }
+  .index img {
+    width: 95%; }
+  .index blockquote {
+    display: none; }
+  .index .flex {
+    display: block; }
+  .index .future-events .event-info {
+    background-color: #62b132;
+    margin: 0 auto 3rem;
+    padding: 1.5rem 1rem;
+    text-align: left;
+    width: 95%; }
+    .index .future-events .event-info h3 {
+      margin-bottom: 1rem; }
+    .index .future-events .event-info a {
+      color: #33343e; }
+      .index .future-events .event-info a:hover {
+        color: #ffffff; }
+    .index .future-events .event-info p {
+      margin-bottom: 0; }
+  .index .get-involved .involved-info {
+    background-color: #5881d8;
+    margin: 0 auto 3rem;
+    padding: 1.5rem 1rem;
+    text-align: left;
+    width: 95%; }
+    .index .get-involved .involved-info h3, .index .get-involved .involved-info ul, .index .get-involved .involved-info a {
+      color: #ffffff; }
+    .index .get-involved .involved-info a:hover {
+      color: #33343e; }
+  @media only screen and (min-width: 48rem) {
+    .index .flex {
+      display: flex;
+      margin-bottom: 2rem; }
+    .index .future-events .event-image {
+      height: auto;
+      width: 40%; }
+    .index .future-events .event-info {
+      text-align: left;
+      margin: 0 0 0 0.25rem;
+      padding: 2rem 1.5rem;
+      width: 60%; }
+      .index .future-events .event-info h3 {
+        margin-bottom: 1rem; }
+    .index blockquote {
+      display: block;
+      padding: 2rem 0;
+      text-align: center; }
+      .index blockquote p {
+        display: inline-block;
+        width: 10rem; }
+        .index blockquote p:first-child {
+          margin-right: 10rem; }
+    .index .get-involved .involved-info {
+      margin: 0 0.25rem 0 0;
+      padding: 2rem 1.5rem;
+      width: 60%; }
+    .index .get-involved .involved-image {
+      order: 2;
+      width: 40%; } }
+
+.row {
+  display: flex; }
+
+.column {
+  flex: 50%; }
+
+.toc-sidebar, .toc-hidden {
+  display: none; }
+
+.toc .toc-visible {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
+
+header .cbmn-logo {
+  display: none; }
+
+.navbar .navbar-brand img {
+  width: 12rem; }
+
+.navbar .navbar-toggler span:first-child {
+  font-size: 0.9rem;
+  padding-right: 0.5rem; }
+
+.navbar .navbar-nav {
+  float: none;
+  margin: 0 auto; }
+  .navbar .navbar-nav .nav-item {
+    margin-right: 1rem;
+    padding-top: 0;
+    text-decoration: none;
+    border-bottom: 1px solid transparent; }
+    .navbar .navbar-nav .nav-item:last-child {
+      margin-right: 0; }
+    .navbar .navbar-nav .nav-item:hover {
+      border-bottom: 1px solid black; }
+
+.navbar .dropdown-toggle {
+  padding-top: 0;
+  text-decoration: none; }
+
+.navbar .dropdown-item {
+  text-decoration: none; }
+
+@media only screen and (min-width: 48rem) {
+  body {
+    display: flex; }
+    body .main-content {
+      width: 75%;
+      padding: 0 2.5rem; }
+      body .main-content.display-full {
+        width: 100%; }
+  header .cbmn-logo {
+    background: url(../images/cbmn-logo.png) no-repeat center center;
+    background-size: 20rem;
+    color: transparent;
+    display: block;
+    height: 4.25rem;
+    margin: 2rem 0 0 0; }
+  .toc-sidebar {
+    background-color: #bdccd4;
+    display: block;
+    font-size: .9rem;
+    width: 25%; }
+    .toc-sidebar.no-bg {
+      background-color: transparent; }
+  .toc-header {
+    display: block;
+    height: 3rem;
+    padding: 0 0 0 0.5rem; }
+    .toc-header button {
+      width: 100%;
+      background-color: transparent;
+      border-width: 0;
+      font-size: 1.5rem;
+      text-align: left !important; }
+      .toc-header button span {
+        font-size: 1rem;
+        font-weight: bold; }
+      .toc-header button i {
+        margin: 0.25rem 0.25rem 0 0;
+        float: right; }
+  .toc-link {
+    display: none;
+    padding: 0.3rem 1rem; }
+    .toc-link:hover {
+      background-color: #5881d8; }
+      .toc-link:hover a {
+        color: #ffffff; }
+    .toc-link a {
+      color: #33343e;
+      text-decoration: none; }
+    .toc-link.show {
+      display: block; }
+  .toc-visible.hide {
+    display: none; }
+  .toc-hidden.show {
+    position: fixed;
+    background-color: #bdccd4;
+    display: block; }
+    .toc-hidden.show button {
+      background-color: transparent;
+      border-width: 0;
+      font-size: 1.5rem; }
+  .second {
+    padding-left: .5rem; }
+  .third {
+    padding-left: 1rem; }
+  .navbar {
+    margin-bottom: 2rem; }
+    .navbar .navbar-brand {
+      display: none; }
+  header .cbmn-logo {
+    background: url(../images/cbmn-logo.png) no-repeat center center;
+    background-size: 20rem;
+    color: transparent;
+    display: block;
+    height: 4.25rem;
+    margin: 2rem 0 0 0; } }
